@@ -79,20 +79,25 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#documento-de-ejemplo" class="nav-link">Documento de ejemplo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p>{% extends "base.html" %}</p>
-<p>{% block content %}</p>
-<p>{% if page.url_to_pdf %}
-    <a href="{{ page.url_to_pdf }}" title="Site PDF" class="md-content__button md-icon">
-        {% include ".icons/material/file-pdf-box.svg" %}
-    </a>
-{% endif %}</p>
-<p>{{ super() }}
-{% endblock content %}</p></div>
+<h1 id="documento-de-ejemplo">Documento de ejemplo<a class="headerlink" href="#documento-de-ejemplo" title="Permanent link">&para;</a></h1>
+<p>Puedes descargar el documento PDF haciendo clic en el siguiente botón:</p>
+<p>
+  <a href="./pdf/index.pdf" download>
+    <button style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Descargar PDF
+    </button>
+  </a>
+</p></div>
             </div>
         </div>
 
@@ -175,5 +180,5 @@
 
 <!--
 MkDocs version : 1.6.0
-Build Date UTC : 2024-08-05 09:13:43.563319+00:00
+Build Date UTC : 2024-08-05 16:03:12.418682+00:00
 -->

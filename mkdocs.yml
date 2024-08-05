@@ -22,7 +22,10 @@ markdown_extensions:
   - codehilite
 
 plugins:
-    - pdf-export
+    - pdf-export:
+        verbose: true
+        media_type: print
+        enabled_if_env: ENABLE_PDF_EXPORT
     - search
 
 # Archivos extra de JavaScript
