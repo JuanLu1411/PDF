@@ -3,14 +3,14 @@ kind: Component
 metadata:
   name: mi-documentacion
   description: Documentación del proyecto generada con MkDocs
-  owner: equipo-de-documentacion
+  owner: Juanlu1411
   tags:
     - documentación
     - mkdocs
 spec:
   type: documentation
   lifecycle: production
-  owner: equipo-de-documentacion
+  owner: Juanlu1411
   definition: url:./mkdocs.yml
   links:
     - url: /docs/pdf
