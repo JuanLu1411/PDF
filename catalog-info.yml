@@ -5,7 +5,7 @@ metadata:
   description: Documentación del proyecto generada con MkDocs
   owner: Juanlu1411
   tags:
-    - documentación
+    - documentacion
     - mkdocs
 spec:
   type: documentation
