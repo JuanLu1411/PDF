@@ -5,13 +5,13 @@ metadata:
   description: Documentación del proyecto generada con MkDocs y pasada a PDF
   annotations:
     backstage.io/techdocs-ref: dir:./mkdocs.yml
-  owner: Juanlu1411
   tags:
     - documentacion
     - mkdocs
 spec:
   type: documentation
   lifecycle: production
+  owner: Juanlu1411
   definition:
     url: ./mkdocs.yml
   links:
