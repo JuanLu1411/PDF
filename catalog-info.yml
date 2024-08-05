@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mi-documentacion
+  description: Documentación del proyecto generada con MkDocs
+  owner: equipo-de-documentacion
+  tags:
+    - documentación
+    - mkdocs
+spec:
+  type: documentation
+  lifecycle: production
+  owner: equipo-de-documentacion
+  definition: url:./mkdocs.yml
+  links:
+    - url: /docs/pdf
+      title: Descargar PDF
+      icon: download

@@ -1,0 +1,33 @@
+# Nombre del sitio
+site_name: Mi Documentación
+
+# Tema del sitio
+theme:
+  name: mkdocs
+
+# Páginas de la documentación
+nav:
+  - Home: index.md
+  - Guía:
+      - Introducción: guia/introduccion.md
+      - Instalación: guia/instalacion.md
+      - Uso: guia/uso.md
+
+# Extensiones de Markdown
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+
+plugins:
+    - pdf-export:
+        verbose: true
+        media_type: print
+        enabled_if_env: ENABLE_PDF_EXPORT
+    - search
+
+# Archivos extra de JavaScript
+extra_javascript:
+  - javascripts/pdf-button.js
