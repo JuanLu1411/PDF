@@ -1,18 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mi-documentacion
-  description: Documentación del proyecto generada con MkDocs
-  owner: Juanlu1411
-  tags:
-    - documentacion
-    - mkdocs
+  name: pdf-prueba
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: documentation
+  type: service
   lifecycle: production
   owner: Juanlu1411
-  definition: url:./mkdocs.yml
-  links:
-    - url: /docs/pdf
-      title: Descargar PDF
-      icon: download
