@@ -27,6 +27,8 @@ plugins:
       media_type: print
       enabled_if_env: ENABLE_PDF_EXPORT
   - search
+  - techdocs-core
+  - pdf-export
 
 
 # Archivos extra de JavaScript
