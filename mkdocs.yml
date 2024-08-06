@@ -8,7 +8,7 @@ theme:
 # Páginas de la documentación
 nav:
   - Home: index.md
-  
+
 # Extensiones de Markdown
 markdown_extensions:
   - toc:
@@ -25,9 +25,3 @@ plugins:
       enabled_if_env: ENABLE_PDF_EXPORT
   - search
   - techdocs-core
-
-
-
-# Archivos extra de JavaScript
-extra_javascript:
-  - javascripts/pdf-button.js
